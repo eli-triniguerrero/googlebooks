@@ -1,3 +1,18 @@
-main {
-    background: #333333;
+
+.main-container {
+    display: flex;
+    padding: 2rem 1rem;
+}
+.container-item-left {
+    background-color: aquamarine;
+    width: 25%;
+}
+.container-item-right {
+    background-color: rosybrown;
+    width: 75%;
+}
+/* .container-item-input */
+
+.button-medium, .input-medium {
+    height: 50px;
 }
